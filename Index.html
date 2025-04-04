@@ -1,0 +1,79 @@
+<!DOCTYPE html><html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta para Meu Amor</title>
+    <style>
+        body {
+            background-color: #8B0000;
+            color: white;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .hidden {
+            display: none;
+        }
+        .carta {
+            width: 200px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .mensagem {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            margin: 20px auto;
+            text-align: left;
+        }
+        button {
+            background-color: white;
+            color: #8B0000;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+        .nao:hover {
+            position: absolute;
+            top: calc(20% + (Math.random() * 300px));
+            left: calc(20% + (Math.random() * 300px));
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Oii amor, quer ler sua carta?</h1>
+        <button onclick="mostrarCarta()">SIM</button>
+        <button class="nao">NÃO</button>
+        <div id="cartaDiv" class="hidden">
+            <img src="https://cdn-icons-png.flaticon.com/512/1946/1946436.png" class="carta" onclick="mostrarMensagem()">
+        </div>
+        
+        <div id="mensagemDiv" class="hidden mensagem">
+            <p><strong>De: Matt</strong><br>
+            <strong>Para: Scarlett</strong></p>
+            <p>Oii amor, sabe meu bem, eu queria poder escrever um grande livro pra vc, dizendo o tanto q eu te amo, mas sinto q nem todas as plado mundo seria suficiente pra dizer o wuaeu te amo!! amor, deste do dia 10 de Dezembro de 2024 eu sou o homem mais feliz do mundo, e deste então eu sei oq é o amor!! eu quero te ter todos os dias da minha vida, vada segundo ao seu lado é uma aventura meu amor, sabe, vc não tem bocomo eu admiro o fato de q quando eu quiser olhar a beleza do universo só é preciso olhar nos seus olhos, ver os cosmos nos cachos do seu cabelo, cada detalhe perfeito seu é uma estrela no céu, você é meu universo meu amor!! eu quero fazer todos os dias da sua vida especial, assim como vc fez na minha, eu te amo muito meu amor, e te dedicaria cada palavra ou musica amor, você é muito especial ora pra mim querida!! seremos felizes do lado um do outro por toda vida, e mesmo q a nossa vida carnal chegue ao fim, ainda continuaremos vivos, pq o nosso amor nunc, nunca morre.</p>
+            <p>EU TE AMO MUITO MEU AMOR, MUITO MESMO!! 🤟🏻🖤🖤</p>
+        </div>
+    </div>
+
+    <script>
+        function mostrarCarta() {
+            document.getElementById("cartaDiv").classList.remove("hidden");
+        }
+        function mostrarMensagem() {
+            document.getElementById("mensagemDiv").classList.remove("hidden");
+        }
+    </script>
+</body>
+</html>
+
+
+Pronto! O código está salvo no documento "Carta Para Meu Amor". Se precisar de alguma modificação ou ajuda para colocar online, é só falar!
+
